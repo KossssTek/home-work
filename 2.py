@@ -1,5 +1,4 @@
 # DZ-2
-from typing import final
 
 
 my_list = []
@@ -22,6 +21,6 @@ for num in my_list:
     check_sum = 0
     for check_num in str(num):
         check_sum += int(check_num)
-    if check_sum % 7 ==
+    if check_sum % 7 == 0:
     final_sum += num
 print(final_sum)
