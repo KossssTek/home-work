@@ -22,5 +22,5 @@ for num in my_list:
     for check_num in str(num):
         check_sum += int(check_num)
     if check_sum % 7 == 0:
-    final_sum += num
+        final_sum += num
 print(final_sum)
